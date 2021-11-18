@@ -1,0 +1,33 @@
+$primary:                    #202020;
+$body-bg:                    #363636;
+$offcanvas-bg-color:         #202020;
+$modal-content-bg:           #6c757d;
+$modal-content-border-width:         0;
+$body-dark-bg:               #202020;
+$body-color:                 #ffffff;
+$navbar-dark-bg:             #202020;
+$navbar-dark-color:          #da9e1f;
+$navbar-toggler-focus-width:         0;
+$navbar-dark-toggler-border-color:   0;
+$card-bg:                    #5e5e5e;
+$breadcrumb-active-color:    #da9e1f;
+
+$form-file-button-bg:        #363636;
+
+$accordion-button-active-bg: #da9e1f;
+
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+
+
+
+
+//https://bootswatch.com/quartz/
+//import bootstrap tem de estar no meio de variaveis e tema
+
+// @import "var-quartz";
+
+// @import '../node_modules/bootstrap/scss/bootstrap';
+
+// @import "tema-quartz";

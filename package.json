@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap-customize",
+  "version": "1.0.0",
+  "description": "customize bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "css-compile": "node-sass --include-path node_modules --output-style compressed src/main.scss > dist/css/main.css; cp node_modules/bootstrap/dist/js/bootstrap.bundle.min.js dist/js/bootstrap.bundle.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twbs/bootstrap-npm-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/twbs/bootstrap-npm-starter/issues"
+  },
+  "homepage": "https://github.com/twbs/bootstrap-npm-starter#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "node-sass": "^6.0.1"
+  }
+}
